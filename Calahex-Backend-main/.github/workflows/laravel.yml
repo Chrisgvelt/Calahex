@@ -1,0 +1,19 @@
+name: Laravel
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  laravel-tests:
+  # test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Deploy to production
+      uses: appleboy/ssh-action@master
+      with:
+          username: "root"
+          host: "157.230.189.50"
+          password: "FlikKerop1967!A"
+          script: '#cd /var/www/html/calahex && ./deployer.sh' #cd /var/www/html/MerqataAPI && ./server_deploy.sh

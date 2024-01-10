@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a03f4698-954c-41d1-8955-3be13b4eb49f" name="Calahex" url="http://calahex.io">
+        <fileTransfer rootFolder="/home/w9tthmxvcxao/calahex.io" accessType="SFTP" host="calahex.io" port="22" sshConfigId="d59c767f-ce0f-4d2d-bfa1-d464d46f2b65" sshConfig="w9tthmxvcxao@calahex.io:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
